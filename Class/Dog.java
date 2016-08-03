@@ -1,0 +1,11 @@
+public class Dog extends Animnal{
+	
+	public Dog(String $name){
+		super($name);
+	}
+	
+	public String toString(){
+		String s = "Dog name is " + _name;
+		return s;
+	}
+}
