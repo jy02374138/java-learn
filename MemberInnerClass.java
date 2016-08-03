@@ -3,14 +3,27 @@ public class MemberInnerClass{
 		Outter1 outer = new Outter1();
 		Outter1.Inner1 inner = outer.new Inner1();
 		
+		outer.num1 = 100;
+		
 		inner.outShow();
+		//outer.inner.outShow();
 	}
-	
 }
+
+
+
+
 
 class Outter1{
 	public String name = "ÕÅÈı";
-	private int num1 = 31;
+	public int num1 = 31;
+	
+	public Inner1 inner;
+	
+	public Outter1(){
+		inner = new Inner1();
+		outShow();
+	}
 	
 	public void outShow(){
 		System.out.println(name + " : " + num1);
@@ -21,7 +34,14 @@ class Outter1{
 		private int num1 = 20;
 	
 		public void outShow(){
-			System.out.println(name + " : " + num1);
+			//System.out.println(name + " : " + num1);
+			System.out.println(num1);
+			System.out.println(Outter1.this.num1);
+		}
+		
+		protected void outShowA(){
+			//System.out.println(name + " : " + num1);
+			System.out.println(this.name + " : _" + num1);
 		}
 	}
 }
