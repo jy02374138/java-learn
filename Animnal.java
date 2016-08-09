@@ -3,8 +3,8 @@ public class Animnal{
 	protected String _name;
 	
 	
-	public Animnal(String $name){
-		_name = $name;	
+	public Animnal(){
+		//_name = $name;	
 	}
 	
 	
