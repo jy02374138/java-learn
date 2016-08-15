@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="GitCommitMessageComponent">
+		<list key="E:\Git\java\java-learn\.git">
+			<item value="false"/>
+			<item value="jy02374138 &lt;jy02374138@sina.com&gt;"/>
+			<item value="update"/>
+			<item value="jy02374138 &lt;jy02374138@sina.com&gt;"/>
+			<item value="1e498c3a0b7ee6c26acdc7f4fff34abd3d8aebf3"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="200,200" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>
