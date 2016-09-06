@@ -2,7 +2,11 @@
 <section name="Workbench">
 	<section name="GitCommitMessageComponent">
 		<list key="E:\Git\java\java-learn\.git">
-			<item value="empty"/>
+			<item value="false"/>
+			<item value="jy02374138 &lt;jy02374138@sina.com&gt;"/>
+			<item value="updata"/>
+			<item value="jy02374138 &lt;jy02374138@sina.com&gt;"/>
+			<item value="d809dcac2ecdcdf05917df4ffe0f8af5481eea1e"/>
 		</list>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
