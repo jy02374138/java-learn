@@ -2,15 +2,17 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
-<fullyQualifiedTypeName name="android.os.Bundle"/>
 <fullyQualifiedTypeName name="android.view.Menu"/>
 <fullyQualifiedTypeName name="android.view.MenuItem"/>
 <fullyQualifiedTypeName name="java.lang.CharSequence"/>
 <fullyQualifiedTypeName name="android.view.View"/>
-<fullyQualifiedTypeName name="android.app.Dialog"/>
-<fullyQualifiedTypeName name="android.app.AlertDialog"/>
-<fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
 <fullyQualifiedTypeName name="com.zw.dialog.R.drawable"/>
 <fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnMultiChoiceClickListener"/>
+<fullyQualifiedTypeName name="android.app.Dialog"/>
+<fullyQualifiedTypeName name="android.os.Bundle"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
 </qualifiedTypeNameHistroy>

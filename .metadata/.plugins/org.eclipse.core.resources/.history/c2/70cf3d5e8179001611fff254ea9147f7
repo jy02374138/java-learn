@@ -1,0 +1,11 @@
+package com.zw.dialog;
+
+import android.app.DialogFragment;
+
+public class Fragment1 extends DialogFragment {
+	static Fragment1 newInstance(String $title){
+		Fragment1 f = new Fragment1();
+		
+		return f;
+	}
+}

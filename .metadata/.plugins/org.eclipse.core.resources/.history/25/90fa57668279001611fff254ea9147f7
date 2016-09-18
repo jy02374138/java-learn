@@ -1,0 +1,22 @@
+package com.zw.dialog;
+
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.os.Bundle;
+
+public class Fragment1 extends DialogFragment{
+	
+	static Fragment1 newInstance(String $title){
+		Fragment1 f = new Fragment1();
+		Bundle b = new Bundle();
+		b.putString("title", $title);
+		f.setArguments(b);
+		return f;
+	}
+	
+	public Dialog onCreateDialog(Bundle $b){
+		String s = $b.getString("title");
+		
+	}
+	
+}
