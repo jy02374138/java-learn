@@ -1,19 +1,15 @@
 package com.zw.dialog;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 public class DialogActivity extends Activity {
 	
-	CharSequence[] items = {"Google" , "Apple" , "Microsoft"};
-	boolean[] itemsChecked = new boolean[items.length];
+//	CharSequence[] items = {"Google" , "Apple" , "Microsoft"};
+//	boolean[] itemsChecked = new boolean[items.length];
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -40,10 +36,8 @@ public class DialogActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void onClick(View v){
-		showDialog(0);
-	}
 	
+	/*
 	protected Dialog onCreateDialog(int id){
 		switch(id){
 		case 0:
@@ -70,5 +64,5 @@ public class DialogActivity extends Activity {
 				}
 			});
 		}
-	}
+	}*/
 }

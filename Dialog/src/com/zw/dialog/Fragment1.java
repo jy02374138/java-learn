@@ -9,6 +9,9 @@ import android.widget.Toast;
 
 public class Fragment1 extends DialogFragment{
 	
+	CharSequence[] items = {"Google" , "Apple" , "Microsoft"};
+	boolean[] itemsChecked = new boolean[items.length];
+	
 	static Fragment1 newInstance(String $title){
 		Fragment1 f = new Fragment1();
 		Bundle b = new Bundle();
@@ -25,7 +28,7 @@ public class Fragment1 extends DialogFragment{
 				.setPositiveButton("OK", 
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int which) {
-								Toast.makeText(getActivity(), "OK" , Toast.LENGTH_SHORT).show();;
+								Toast.makeText(getActivity(), "OK" , Toast.LENGTH_SHORT).show();
 							}
 				})
 				.setNegativeButton("Cancel", 
@@ -38,9 +41,9 @@ public class Fragment1 extends DialogFragment{
 				.setMultiChoiceItems(items, itemsChecked, new DialogInterface.OnMultiChoiceClickListener() {
 					public void onClick(DialogInterface dialog , int which, boolean isChecked) {
 						String str = items[which] + (isChecked ? "checked" : "unchecked");
-						Toast.makeText(getBaseContext(), str, Toast.LENGTH_SHORT);
+						Toast.makeText(getActivity(), str, Toast.LENGTH_SHORT).show();
 					}
-				});
+				}).create();
 	}
 	
 }
